@@ -6,6 +6,7 @@ import NavBar from './NavBar/NavBar'
 import Home from './Home'
 import About from './About'
 import Resume from './Resume'
+import SocialLinks from './Contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/resume" component={Resume} />
+      <Route path="/contact" component={SocialLinks} />
     </div>
     </BrowserRouter>
   );
