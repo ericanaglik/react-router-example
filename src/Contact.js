@@ -1,5 +1,7 @@
 import React from 'react'
 import './Contact.css'
+import { SocialIcon } from 'react-social-icons';
+import ReactDOM from 'react-dom';
 
 const SocialLinks = props => {
 	const SOCIAL_ARR = ["linkedin", "github", "instagram"];
@@ -16,11 +18,11 @@ const SocialLinks = props => {
   
   };
   
-//   const SocialApp = props => React.createElement(SocialLinks, null);
+
   
 
 
 
 export default SocialLinks
 
-// ReactDOM.render(<SocialApp />, document.getElementById("root"));]]
+ReactDOM.render(<SocialIcon url="http://twitter.com/ericalovesmusic" />, document.getElementById("root"));
