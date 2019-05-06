@@ -5,12 +5,7 @@ import './Home.css'
 const Home = (props) => {
     return (
         <div>
-            <div class="menu" id="menu">
-                <li><a href="#">ACCUEIL</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">MY WORKS</a></li>
-                <li><a href="#">CONTACT ME</a></li>
-            </div>
+
             <div class="container gradient-purple-blue">
             <div class="under-container bubble">
                 <div class="line">
