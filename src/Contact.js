@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import ReactDOM from 'react-dom';
 
 const SocialLinks = props => {
-	const SOCIAL_ARR = ["linkedin", "github", "instagram"];
+	const SOCIAL_ARR = ["linkedin", "github", "instagram", "gmail"];
 	const SOCIAL_LINKS = SOCIAL_ARR.map((app) =>
 	React.createElement("li", { key: app.toString(), className: `social__link link--${app.toString()}` },
 	React.createElement("a", { href: `https://${app.toString()}.com/ericanaglik`, target: "blank_" }),
@@ -12,9 +12,10 @@ const SocialLinks = props => {
   
   
 	return (
+		
 	  React.createElement("ul", { className: "social-links" },
 	  SOCIAL_LINKS));
-  
+	  
   
   };
   

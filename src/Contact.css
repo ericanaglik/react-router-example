@@ -1,3 +1,23 @@
+.container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100vw;
+	max-width:100%;
+	height:100vh;
+  }
+  
+  
+  .under-container {
+	width:100vw;
+	max-width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+  }
+
 #root {
 	display: flex;
 	justify-content: center;
@@ -50,6 +70,9 @@
   }
   .social__link.link--instagram::before {
 	background: linear-gradient(165deg, #405de6, #fd1d1d);
+  }
+  .social__link.link--gmail::before {
+	background: linear-gradient(165deg, #B7B7B7, #D0493C);
   }
   .social__link a {
 	position: absolute;

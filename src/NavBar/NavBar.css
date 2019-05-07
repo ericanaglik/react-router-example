@@ -1,11 +1,13 @@
 
-
 .menu {
     width:100vw;
     max-width:100%;
-    display:flex;
+    display:flex; 
     justify-content:space-around;
-    position:fixed;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
     transition:opacity 0.5s;
     z-index:1;
   }
