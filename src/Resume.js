@@ -3,8 +3,10 @@ import React from 'react'
 const Resume = (props) => {
     return (
         <div>
-            <h1>Resumé</h1>
+            <div class="bounce animated"><h1>Resumé</h1></div>
+            <div class="social-links">
             <p>Works at Make School.</p>
+            </div>
         </div>
     )
 }

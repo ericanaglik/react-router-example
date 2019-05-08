@@ -26,9 +26,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div class="under-container">
-                <div class="mouse">
-                <div class="molette"></div>
-                </div>
+                
             </div>
             </div>
         </div>
