@@ -10,16 +10,29 @@
     left: 0;
     transition:opacity 0.5s;
     z-index:1;
+    animation-name: bounce;
   }
   
   .menu li {
     padding:30px;
     list-style: none;
+    
   }
   
   .menu li a {
     color:white;
     text-decoration:none;
     font-weight:900;
+    
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+  }
+
+  .navbar__link:hover {
+    animation-name: bounce;
   }
 

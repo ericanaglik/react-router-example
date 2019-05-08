@@ -9,7 +9,7 @@ const Home = (props) => {
             <div class="container gradient-purple-blue">
             <div class="under-container bubble">
                 <div class="line">
-                <div class="square" id="square">E</div>
+                <div class="square" >E</div>
                 <div class="square" >r</div>
                 <div class="square" >i</div>
                 <div class="square" >c</div>

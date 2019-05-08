@@ -58,12 +58,15 @@ body {
   cursor:default;
   transition:all 0.3s;
   color:#fff;
+  animation-iteration-count: infinite;
 }
 
 .square:hover {
   color:#08FDD8;
   animation-name: rubberBand;
+  
 }
+
 
 @-webkit-keyframes rubberBand {
   0% {
