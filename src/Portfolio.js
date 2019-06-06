@@ -25,5 +25,5 @@ const Portfolio = (props) => {
     )
 }
 
-export default Portfolio
+export default
 

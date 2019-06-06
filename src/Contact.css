@@ -1,3 +1,7 @@
+h2 {
+    color:#fff;
+    text-shadow: 1px 1px 2px #08FDD8;
+}
 .container {
 	display:flex;
 	justify-content:center;
