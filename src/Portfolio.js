@@ -1,17 +1,20 @@
 import React from 'react'
+import PortfolioItem from './PortfolioItem'
 
 const items = [
-    { name:"Data Viz", desc:"Lots of bars", url:"" },
-    { name:"Tetris", desc:"Lots of blocks", url:"" },
-    { name:"One More", desc:"Lots more", url:"" },
+    { name:"1 Data Viz", desc:"Lots of bars", url:"", src:"" },
+    { name:"2 Tetris", desc:"Lots of blocks", url:"", src:"" },
+    { name:"3 One More", desc:"Lots more", url:"", src:"" },
+    { name: "4 Square", desc: "More things", url: "", src:""},
 ]
 
 const renderItems = () => {
-    return items.map(({ name, desc, url }) => (
+    return items.map(({ name, desc, url, src }) => (
         <PortfolioItem
             name={name}
             desc={desc}
             url={url}
+            src={src}
         />
     )
 )}
@@ -25,5 +28,5 @@ const Portfolio = (props) => {
     )
 }
 
-export default
+export default Portfolio
 
