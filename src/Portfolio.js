@@ -6,6 +6,7 @@ const items = [
     { name:"2 Tetris", desc:"Lots of blocks", url:"", src:"" },
     { name:"3 One More", desc:"Lots more", url:"", src:"" },
     { name: "4 Square", desc: "More things", url: "", src:""},
+    { name: "5 Circle", desc: "More thingsss", url: "", src:""}
 ]
 
 const renderItems = () => {
